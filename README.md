@@ -1,3 +1,5 @@
+<img src="assets/header.png" alt="BFCM Skills: AI agent skills for Black Friday Cyber Monday operations" width="100%">
+
 # BFCM Skills
 
 Your BFCM operating system, inside the AI assistant you already use.

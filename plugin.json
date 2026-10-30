@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bfcm-ops-skills",
+  "version": "1.0.0",
+  "description": "A focused set of AI-agent skills for planning, executing, monitoring, and reviewing DTC Black Friday Cyber Monday email and SMS campaigns.",
+  "author": {
+    "name": "horaniai"
+  },
+  "repository": "https://github.com/horaniai/bfcm-ops-skills",
+  "license": "MIT",
+  "keywords": [
+    "bfcm",
+    "black-friday",
+    "cyber-monday",
+    "dtc",
+    "ecommerce",
+    "email-marketing",
+    "sms-marketing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "BFCM Skills",
+        "shortDescription": "Plan and run a better BFCM",
+        "longDescription": "Give your AI assistant a structured operating playbook for DTC Black Friday Cyber Monday. Build the strategy and send calendar, prepare deliverability, coordinate email and SMS, manage forms and flows, monitor live results, revert safely, and turn performance into next-year decisions.",
+        "developerName": "horaniai",
+        "category": "Business & Operations",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Help me build our complete BFCM campaign plan.",
+          "Turn our BFCM strategy into a dated email and SMS calendar.",
+          "Review our BFCM results and tell us what to repeat, stop, and test."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bfcm-ops-skills",
+  "version": "1.0.0",
+  "description": "BFCM planning and execution skills for DTC consumer brands.",
+  "owner": {
+    "name": "horaniai"
+  },
+  "plugins": [
+    {
+      "name": "bfcm-ops-skills",
+      "description": "Plan, execute, monitor, and review a DTC Black Friday Cyber Monday campaign.",
+      "version": "1.0.0",
+      "author": {
+        "name": "horaniai"
+      },
+      "source": "./",
+      "strict": true,
+      "category": "marketing"
+    }
+  ]
+}
